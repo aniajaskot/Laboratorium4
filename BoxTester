@@ -1,0 +1,14 @@
+public class BoxTester {
+    public static void main(String[] args) {
+        Box box = new Box(50,20,30);
+
+        double volume = box.height * box.width * box.length;
+
+        System.out.println("Informacje o skrzyni");
+        System.out.println("Wysokość " + box.height);
+        System.out.println("Szerokość " + box.width);
+        System.out.println("Długość " + box.length);
+        System.out.println("Objętość " + volume);
+
+    }
+}
