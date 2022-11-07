@@ -32,6 +32,6 @@ public class SegementTester {
         boolean isTriangle = length1 + length2 > length3 && length2 + length3 > length1 && length1 + length3 > length2;
 
         System.out.println("Najdłuższy odcinek: " + longest);
-        System.out.println("Cz można zbudować trójkąt? " + isTriangle);
+        System.out.println("Czy można zbudować trójkąt? " + isTriangle);
     }
 }
