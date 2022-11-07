@@ -1,0 +1,10 @@
+public class Point {
+
+    int x;
+    int y;
+
+    Point(int coX, int coY){
+        x=coX;
+        y=coY;
+    }
+}
