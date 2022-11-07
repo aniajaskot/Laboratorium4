@@ -1,0 +1,11 @@
+public class Box {
+    double height;
+    double width;
+    double length;
+
+    Box(double h, double w, double l){
+        height = h;
+        width = w;
+        length = l;
+    }
+}
